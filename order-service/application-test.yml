@@ -22,7 +22,10 @@ spring:
       enabled: true
       path: /h2-console
   liquibase:
-    enabled: false
+    enabled: true
+    drop-first: false
+    change-log: classpath:db/changelog/changelog-master.yml
+    default-schema: public
   sql:
     init:
       mode: always
