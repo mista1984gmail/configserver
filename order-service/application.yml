@@ -22,4 +22,4 @@ spring:
     default-schema: public
 
 cache:
-  bach-size: 1000
+  bach-size: 2000
