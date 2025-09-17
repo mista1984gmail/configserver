@@ -23,6 +23,10 @@ spring:
       path: /h2-console
   liquibase:
     enabled: false
+  sql:
+    init:
+      mode: always
+      data-locations: classpath:data.sql
 
 cache:
   bach-size: 1000
