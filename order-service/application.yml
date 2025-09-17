@@ -21,6 +21,5 @@ spring:
     change-log: classpath:db/changelog/changelog-master.yml
     default-schema: public
 
-
 cache:
   bach-size: 1000
