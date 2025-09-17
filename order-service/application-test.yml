@@ -32,4 +32,4 @@ spring:
       data-locations: classpath:data.sql
 
 cache:
-  bach-size: 1000
+  bach-size: 2000
